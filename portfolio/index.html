@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/shortcut.png" type="image/x-icon" />
+    <title>Kemeni-Portfolio</title>
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX ICONS CDN LINK -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Animate On Scroll Library CSS Link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <div class="navbar">
+      <div class="container">
+        <div class="nav">
+          <!-- logo  -->
+          <a href="#" class="logo">
+            <button class="button" data-text="Awesome">
+              <span class="actual-text">&nbsp;CLEX&nbsp;</span>
+              <span aria-hidden="true" class="hover-text">&nbsp;CLEX&nbsp;</span>
+          </button>
+          </a>
+          <!-- links  -->
+          <ul class="links">
+            <li>
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">services</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+          </ul>
+          <!-- toggles  -->
+          <div class="toggles">
+            <!-- toggle nav links  -->
+            <button class="toggle-links">
+              <i class="bx bx-menu"></i>
+            </button>
+            <!-- toggle contact right bar  -->
+            <button class="toggle-contact-right-bar">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT RIGHT BAR  -->
+    <div class="contact-right-bar">
+      <div class="contact-header">
+        <!-- small logo  -->
+        <a href="/" class="small-logo">
+          <button class="button" data-text="Awesome">
+            <span class="actual-text">&nbsp;CLEX&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;CLEX&nbsp;</span>
+        </button>
+        </a>
+        <button class="circle-btn close-contact">
+          <i class="bx bx-x"></i>
+        </button>
+      </div>
+      <div class="contact-body">
+        <div class="top">
+          <h4 class="contact-title">about Me</h4>
+          <p>
+            I'm a person who always search for somme solutions in tech domain 
+            and i also like to see my ideas become reality when i start 
+            and end a project.
+          </p>
+        </div>
+        <div class="bottom">
+          <h4 class="contact-title">get in touch</h4>
+          <!-- contact right bar form  -->
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                required
+                placeholder="Your Name"
+                class="input-contact"
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                required
+                placeholder="Your Email"
+                class="input-contact"
+              />
+            </div>
+            <div class="input-group">
+              <textarea
+                required
+                placeholder="Message"
+                class="message-contact"
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <a href="mailto:ulrichkemeni4@gmail.com">
+                <button type="submit" class="btn">Submit Now</button>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER -->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="text-col">
+            <h1 class="banner-heading">
+              HELLO, I'M CLEX! A CREATIVE
+              <span>CODER</span>
+            </h1>
+            <p>
+              I'm a passionate web developper who enjoys creating website,
+              web applications as a projects . I always make sure that my interfaces 
+              are captivating and friendly for users.
+            </p>
+            <div class="btn-container">
+              <button class="btn download-btn flex items-center">
+                Download CV <i class="bx bx-download"></i>
+              </button>
+            </div>
+          </div>
+          <!-- right column -->
+          <div class="img-col">
+            <div class="img">
+              <img
+                src="images/image1.jpg"
+                alt="banner-img"
+                class="banner-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <!-- left column  -->
+          <div class="col-2">
+            <!-- title and subtitle -->
+            <h3 class="section-title">about me</h3>
+            <h5 class="section-subtitle-left" data-aos="fade-up">
+              I'm a person who always search for somme solutions in
+              tech domain, especially in development and i also like to see my ideas become reality when
+              i start and end a project; form UI/UX to the coding part, i enjoy it.
+            </h5>
+          </div>
+          <!-- right column  -->
+          <div class="col-2 text-right-lg-left" data-aos="fade-left">
+            <img src="images/about_img.jpg" alt="about-img" class="about-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES  -->
+    <section class="services" id="services">
+      <div class="container">
+        <!-- title and subtitle -->
+        <h3 class="section-title text-center">my services</h3>
+        <h5 class="section-subtitle-center" data-aos="fade-up">
+          Crafting stories through design and innovation
+        </h5>
+        <!-- services list -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-3" data-aos="fade-right">
+            <div class="service-icon"><i class="bx bx-code-alt"></i></div>
+            <div class="card">
+              <div class="card-title">website design</div>
+              <p class="text-center">
+                Build responsive websites with a smooth interfaces
+              </p>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-3" data-aos="fade-up">
+            <div class="service-icon"><i class="bx bxl-sketch"></i></div>
+            <div class="card">
+              <div class="card-title">logo design</div>
+              <p class="text-center">
+                By using somes Adobe applications, i can design a lot of logo
+                for an organisation or a big enterprise.
+              </p>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="service-icon"><i class="bx bxl-codepen"></i></div>
+            <div class="card">
+              <div class="card-title">Native and web apps development</div>
+              <p class="text-center">
+                With some integrated development interfaces like NodeJs , frameworks
+                like ReactJs , React Native, i can build somes applications that can be used
+                on computers or smartphones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EDUCATION AND SKILLS -->
+    <section class="education-skill">
+      <div class="container">
+        <!-- title and subtitle  -->
+        <h3 class="section-title text-center">education & skills</h3>
+        <!-- education list  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-2" data-aos="fade-right">
+            <div class="education">
+              <button class="btn-outline">2022 - 2024</button>
+              <h2>School at SUP'PTIC Yaounde in Cameroon</h2>
+              <p>
+                In this school, i studied in the telecommunication sector;
+                especially the computer network.
+              </p>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-left">
+            <div class="education">
+              <button class="btn-outline">2023</button>
+              <h2>Bootcamp at InchTechs</h2>
+              <p>
+                I successfully complete a bootcamp on IoT, Data Analytics,
+                Virtual Reality, Network Security and Artificial intelligence
+                held in Yaounde,Centre Cameroon.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- skills list -->
+        <div class="row mt-20">
+          <!-- column 1 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">HTML</h6>
+              <div class="skill-progress w-90"></div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">PHP</h6>
+              <div class="skill-progress w-40"></div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">CSS</h6>
+              <div class="skill-progress w-60"></div>
+            </div>
+          </div>
+          <!-- column 4 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">Python</h6>
+              <div class="skill-progress w-60"></div>
+            </div>
+          </div>
+          <!-- column 5 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">Javascript</h6>
+              <div class="skill-progress w-70"></div>
+            </div>
+          </div>
+          <!-- column 6 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">java</h6>
+              <div class="skill-progress w-60"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS  -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <!-- title and subtitle  -->
+        <h3 class="section-title">My Projects</h3>
+        <h5 class="section-subtitle-left" data-aos="fade-up">
+          Here are all my best projects on web development, web app and Native app
+          development.
+        </h5>
+        <!-- projects list  -->
+        <div class="flex justify-between flex-wrap my-50 gap-20">
+          <!-- column 1 -->
+          <div class="col-3xl" data-aos="fade-right">
+            <div class="project">
+              <img
+                src="images/Music-Player.PNG"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>Music Player</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>ReactJs and NodeJs web app</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-1sm" data-aos="fade-left">
+            <div class="project">
+              <img
+                src="images/todo2.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>TODO List</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>React and Vite web app</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-2sm" data-aos="fade-right">
+            <div class="project">
+              <img
+                src="images/project-4.jpg"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>chat web app</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>vite, React and NodeJs web app</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 4 -->
+          <div class="col-2sm" data-aos="fade-left">
+            <div class="project">
+              <img
+                src="images/project-5.png"
+                alt="project-img"
+                class="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>Calculator</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>React web app</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT  -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="flex flex-wrap justify-between">
+          <!-- column 1 -->
+          <div class="col-2">
+            <!-- title and subtitle -->
+            <h3 class="section-title">contact me</h3>
+            <h5 class="section-subtitle-left" data-aos="fade-up">
+              Design and Innovation
+            </h5>
+            <div class="my-40">
+              <p>
+                Contact me if you are loking for confidence and
+                a satisfactory results.
+              </p>
+            </div>
+            <div class="row">
+              <!-- column 1 -->
+              <div class="col-2" data-aos="fade-up">
+                <div class="contact-card flex flex-col items-center gap-20">
+                  <div class="contact-card-icon">
+                    <i class="bx bx-git-pull-request"></i>
+                  </div>
+                  <div class="numbers">8</div>
+                  <p>Complete Project</p>
+                </div>
+              </div>
+              <!-- column 2 -->
+              <div class="col-2" data-aos="fade-up">
+                <div class="contact-card flex flex-col items-center gap-20">
+                  <div class="contact-card-icon">
+                    <i class="bx bx-user"></i>
+                  </div>
+                  <div class="numbers">5</div>
+                  <p>Client Review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-left">
+            <div class="contact-form">
+              <h2>get in touch me?</h2>
+              <p class="my-20">
+                I will take a time to read all your mails .
+              </p>
+              <form>
+                <div class="input-group">
+                  <input type="text" required placeholder="Your Name" />
+                </div>
+                <div class="input-group">
+                  <input type="email" required placeholder="Your Email" />
+                </div>
+                <div class="input-group">
+                  <input type="number" required placeholder="Your Phone" />
+                </div>
+                <div class="input-group">
+                  <textarea required placeholder="Message"></textarea>
+                </div>
+                <div class="input-group">
+                  <a href="mailto:ulrichkemeni4@gmail.com">
+                    <button type="submit" class="btn">Submit Now</button>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NEWS LETTER -->
+    <div class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2 class="text-center" data-aos="fade-up">
+            SUBSCRIBE MY NEWSLETTER
+          </h2>
+          <div class="newsletter-form" data-aos="fade-up">
+            <form>
+              <input type="email" required placeholder="Enter Your Email" />
+              <button class="btn" type="submit">Notify Me</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="container">
+        <!-- footer top  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-3" data-aos="fade-right">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-location-plus"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h4 class="footer-title">Address</h4>
+                <p class="my-20">
+                 Yaounde Cameroon
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-3" data-aos="fade-up">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-phone-call"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h4 class="footer-title">Lets talk us</h4>
+                <div class="my-20">
+                  <p class="primary-hover">+237 652975403</p>
+                  <p class="primary-hover">+237 692212054</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-envelope"></i>
+              </div>
+              <!-- text -->
+              <div>
+                <h4 class="footer-title">Send us email</h4>
+                <div class="my-20">
+                  <p class="primary-hover">ulrichkemeni4@gmail.com</p>
+                  <p class="primary-hover"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- line break -->
+        <div class="my-20 border-gray" data-aos="fade-up"></div>
+        <!-- footer bottom  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-2">
+            <p>&#169; Clex Kemeni 2024 | All Rights Reserved</p>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2">
+            <div class="row">
+              <p class="primary-hover">Terms & Condition</p>
+              <p class="primary-hover">Privacy Policy</p>
+              <p class="primary-hover">Sitemap</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- CONTACT OVERLAY  -->
+    <div class="contact-overlay fade"></div>
+    <!-- LOADING -->
+    <div class="loading">
+      <div class="loader"></div>
+    </div>
+    <!-- Animate On Scroll Library JS Link  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- local js link  -->
+    <script>
+      const toggleLinksMenu = document.querySelector(".nav .toggle-links"),
+  navLinksElement = document.querySelector(".nav .links"),
+  navLinks = document.querySelectorAll(".nav .links .nav-link"),
+  toggleContactMenu = document.querySelector(".nav .toggle-contact-right-bar"),
+  contactRightBar = document.querySelector(".contact-right-bar"),
+  closeContactRightBarBtn = document.querySelector(
+    ".contact-right-bar .close-contact"
+  ),
+  contactOverlay = document.querySelector(".contact-overlay"),
+  loading = document.querySelector(".loading");
+
+//   toggle nav links
+toggleLinksMenu.addEventListener("click", toggleNav);
+// nav links
+navLinks.forEach((link) => {
+  link.addEventListener("click", toggleNav);
+});
+function toggleNav() {
+  navLinksElement.classList.toggle("show-links");
+  toggleLinksMenu.children[0].classList.toggle("bx-x");
+}
+// open contactRightBar
+toggleContactMenu.addEventListener("click", toggleContact);
+// close contactRightBar in btn
+closeContactRightBarBtn.addEventListener("click", toggleContact);
+// close contactRightBar in overlay
+contactOverlay.addEventListener("click", toggleContact);
+
+function toggleContact() {
+  contactRightBar.classList.toggle("show-contact");
+  contactOverlay.classList.toggle("show");
+}
+// loading
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    loading.classList.toggle("hide");
+  }, 1000);
+});
+// initialize AOS library
+AOS.init();
+    </script>
+  </body>
+</html>
